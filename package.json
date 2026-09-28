@@ -1,0 +1,29 @@
+{
+  "name": "@theworker02/carvecidr",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Carve host/cidr network string helpers for config audits.",
+  "bin": {
+    "carvecidr": "src/cli.js"
+  },
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theworker02/carvecidr.git"
+  },
+  "homepage": "https://theworker02.github.io/carvecidr/",
+  "keywords": [
+    "carve",
+    "cidr",
+    "net",
+    "cli",
+    "toolkit"
+  ]
+}
